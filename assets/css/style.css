@@ -1,232 +1,128 @@
-* {
-  font-family: Outfit;
+/* 
+- id
+- classi
+- tag
+
+- selettori avanzati
+settore discente
+selettore > discendente diretto
+*/
+
+
+/* Debug */
+
+.debug
+{
+
+  * {
+    border: 1px dashed;
+  }
+
+  header
+  {
+    height: 100px;
+    background-color: green;
+  }
+
+  .container
+  {
+    background-color: rgba(255, 170, 12, 0.753);
+   height: 100%;
+  }
+
+  .container-sm {
+    background-color: pink;
+    height: 100%;
+  }
+
+
+  .jumbotron {
+    background-color: royalblue;
+      height: 400px;
+  }
+
+
+  section {
+    height: 350px;
+    background-color: purple;
+  }
+
+
+  footer {
+    background-color: black;
+    height: 500px;
+  }
+
+}
+
+/* .degug header {} */
+/* .debug .jumbotron {} */
+/* .degug > header {} */
+
+
+/* Common */
+*
+{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Custom list */
+.container
+{
+  width: 80%;
+  max-width: 1200px;
+  margin: auto
+}
 
-li {
-  list-style-type: none;
+.container-sm
+{
+  width: 65%;
+  margin: auto;
 }
 
 
-/* Custom img*/
-.center img {
-  height: 25rem;
-  width: 30rem;
-  object-fit: cover;
-}
+/* Utilities */
 
-.bottom img {
-  height: 25rem;
-  width: 50rem;
-  object-fit: cover;
-  
-  margin-block: 4rem;
-}
-
-
-
-/* General settings for buttons */
-
-button {
-  padding-block: 0.3rem;
-  padding-inline: 1rem;
-  border-radius: 1rem;
-}
-
-
-
-
-.title {
-  font-size: 30px;
-  font-weight: bold;
-}
-
-
-.sub-title {
-  font-weight: bold;
-  font-size: 1.5rem;
-  margin-bottom: 1.3rem;
-}
-
-
-/* Body */
-
-.debug {
-  background-color: gray;
-}
-
-/* 
-  main della pagina (.container), composta di:
-  * Contenuto principale (.center)
-  * Contenuto conclusivo (.bottom)
-*/
-
-.container {
-  margin-block: 6rem;
-}
-
-
-.center,
-.bottom {
-  width: 60rem;
-  margin: 0 auto;
-
-  background-color: rgb(228, 228, 228);
-}
-
-
-/* Per le aree che hanno  
-un paragrafo e un'immagine affiancati*/
-
-.center > div {
+.d-flex
+{
   display: flex;
-  justify-content: space-between;
-
-  margin-block: 5rem;
-  padding: 3rem;
 }
 
-.center > div > section {
-  display: flex;
-  width: 100%;
+.justify-content-between
+{
   justify-content: space-between;
 }
 
-.center > div > section > div {
-  height: 100%;
-  width: 20rem;
-  background-color: rgb(255, 255, 255);
-}
 
-.s-reverse {
-  flex-direction: row-reverse;
+.list-unstyled
+{
+  list-style: none;
 }
 
 
-.bottom .end {
-  width: 90%;
-  margin: 0 auto;
+/* Header */
 
-  padding: 2rem;
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  text-align: center;
+header
+{
+  padding: 0.5rem 0;
 }
 
 
-/* 
-  Header della pagina (.banner), composta di:
-  * Barra menu (.menu-bar)
-  * Contenitore introduttivo (.top, .content)
-*/
 
-.banner {
-  background-color: rgb(147, 126, 210);
+
+/* Main */
+
+.w-70{
+  width: 70%;
 }
 
-.menu-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-inline: 2rem;
-  height: 4rem;
-}
-
-.menu-bar ul{
-  display: flex;
+.w-30
+{
+  width: 30%;
 }
 
 
-.menu-bar li {
-  margin-inline: 2rem;
-}
-
-
-.banner .top {
-  height: 25rem;
-  margin-bottom: 6rem;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.top .content {
-  width: 40%;
-  height: 10rem;
-  margin: 0 auto;
-
-  min-width: 40rem;
-  max-width: 60rem;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  text-align: center;
-  background-color: rgb(233, 233, 233);
-}
-
-
-/* 
-  footer della pagina (.ending) composto di:
-  * Info (.content) 
-  * area finale (.end-page) 
-*/
-
-
-.ending {
-  padding-block: 2rem;
-  background-color: rgb(84, 84, 84);
-}
-
-.ending > div {
-  width: 70rem;
-  margin: 0 auto;
-  
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-.content > div:first-child {
-  width: 15rem;
-}
-
-.first-class > * {
-  margin-block: 1.2rem;
-}
-
-.content > div:not(.first-class) li {
-  margin-block: 0.4rem;
-}
-
-.content > div:not(.first-class) span {
-  font-weight: bold;
-}
-
-.ending .socials {
-  display: flex;
-}
-
-.socials img {
-  width: 1.5rem;
-  height: 1.5rem;
-  object-fit: cover;
-  margin-inline: 0.3rem;
-}
-
-.ending .end-page {
-  border-top: 1px solid; 
-  margin-top: 2rem;
-  padding-block: 0.5rem;
-  
-  display: flex;
-  align-items: center;
+section {
+  padding: 3rem 0;
 }
