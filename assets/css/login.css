@@ -14,3 +14,20 @@ html, body {
   background-size: cover;
   background-position: center;
 }
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  height: 40%;
+  min-height: 25rem;
+  
+  width: 30%;
+  min-width: 45rem;
+
+  background-color: white;
+  border-radius: 1rem;
+}
