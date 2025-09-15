@@ -34,6 +34,8 @@ selettore > discendente diretto
     background-size: cover;
     background-position: center;
     aspect-ratio: 16/6;
+
+    text-align: center;
   }
 
   section {
@@ -62,7 +64,7 @@ selettore > discendente diretto
 .container {
   width: 80%;
   max-width: 80rem;
-  min-width: 50rem;
+  min-width: 60rem;
   margin: auto;
 }
 
