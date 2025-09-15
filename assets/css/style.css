@@ -61,14 +61,12 @@ selettore > discendente diretto
 
 .container {
   width: 60%;
-  min-width: 60rem;
   margin: auto;
 }
 
 .container-sm {
   width: 55%;
   max-width: 60rem;
-  min-width: 40rem;
 
   margin: auto;
 }
