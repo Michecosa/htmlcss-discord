@@ -36,6 +36,8 @@ selettore > discendente diretto
 
     display: flex;
     text-align: center;
+    
+    padding-top: 2rem;
   }
 
   section {
