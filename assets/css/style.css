@@ -279,13 +279,12 @@ nav button {
 }
 
 .middle-wave {
-  height: 5.2rem;
-  background-image: linear-gradient(rgb(255 255 255 / 0.95)),
-  url(../img/wave.svg);
+  height: 8rem;
+  background-image: linear-gradient(rgb(255 255 255 / 0.95)), url(../img/wave2.svg);
+  background-repeat: no-repeat;
   background-size: 100% auto;
-
+  background-position: top;
 }
-
 
 .meeting {
   background-color: #f2f2f2;
