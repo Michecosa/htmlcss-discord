@@ -122,7 +122,6 @@ header {
 
 .w-100 {
   width: 100%;
-  margin-block: 1rem;
 }
 
 section {
@@ -145,13 +144,9 @@ section {
   width: 100%;
 }
 
-.meeting button img {
-  height: 1rem;
-}
-
 .h2-stars img {
   width: 100%;
-  max-width: 30rem;
+  max-width: 50rem;
   height: auto;
 }
 
@@ -171,11 +166,11 @@ nav {
 }
 
 .jumbotron h1 {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 p {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   margin: 2rem auto;
 }
 
@@ -185,7 +180,7 @@ p {
 }
 
 section h2 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   margin-bottom: 1.5rem;
 }
 
@@ -196,8 +191,8 @@ section h2 {
 }
 
 .meeting h3 {
-  margin-bottom: 2rem;
-  font-size: 1.5rem;
+  margin-bottom: 5rem;
+  font-size: 2.5rem;
 }
 
 .ending ul {
@@ -218,8 +213,8 @@ section h2 {
 /* Buttons */
 
 button {
-  padding-inline: 1.5rem;
-  padding-block: 0.7rem;
+  padding-inline: 2.2rem;
+  padding-block: 1.2rem;
   border-radius: 3rem;
   font-weight: 400;
 }
@@ -229,17 +224,18 @@ button:hover {
 }
 
 nav button {
-  padding-inline: 1rem;
-  padding-block: 0.3rem;
+  padding-inline: 1.2rem;
+  padding-block: 0.5rem;
 
   color: black;
   font-weight: 400;
+  font-size: 1.3rem;
 }
 
 .jumbotron button,
 .meeting button {
-  margin-inline: 0.3rem;
-  font-size: 1.2rem;
+  margin-inline: 0.5rem;
+  font-size: 1.8rem;
 }
 
 .light-b {
