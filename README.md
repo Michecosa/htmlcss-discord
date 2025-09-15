@@ -6,6 +6,7 @@ The project is built using **HTML5** and **CSS3** with a focus on semantic struc
 
 🌐 [Check it out!](https://michecosa.github.io/htmlcss-discord/)
 
+<br>
 
 ## 🚀 Features
 
@@ -20,7 +21,7 @@ The project is built using **HTML5** and **CSS3** with a focus on semantic struc
 - **Reusable buttons** with different styles (`.light-b`, `.dark-b`, `.lightblue-b`).
 - **Debug mode** for quickly visualizing layout with borders.
 
----
+<br>
 
 ## 🛠️ Technologies Used
 
