@@ -37,10 +37,8 @@ selettore > discendente diretto
   }
 
   section {
-    background-image: 
-      linear-gradient(rgba(255, 255, 255, 0.96)), 
-      url(../img/wave.svg);
-    background-size:cover;
+    /* height: 350px; */
+    background-color: purple;
   }
 
   footer {
@@ -103,4 +101,14 @@ header {
 
 section {
   padding: 3rem 0;
+}
+
+
+/* Images */
+
+.invite_only .w-70 {
+  background-image: url(../img/item1.svg);
+  object-fit: cover;
+  aspect-ratio: 6/4;
+  background-repeat: no-repeat;
 }
