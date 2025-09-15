@@ -86,6 +86,7 @@ selettore > discendente diretto
 
 nav .d-flex {
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .justify-content-between {
@@ -225,7 +226,6 @@ button:hover {
 }
 
 nav button {
-  padding-inline: 1.2rem;
   padding-block: 0.5rem;
   margin-bottom: 0;
 
