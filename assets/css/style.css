@@ -39,8 +39,7 @@ selettore > discendente diretto
   }
 
   section {
-    /* height: 350px; */
-    background-color: purple;
+    margin-block:4rem;
   }
 
   footer {
@@ -203,16 +202,24 @@ section h2 {
 /* Buttons */
 
 button {
-  padding-inline: 1.2rem;
+  padding-inline: 1.5rem;
   padding-block: 0.7rem;
   border-radius: 3rem;
   font-weight: 400;
-
-  font-size: 1.2rem;
 }
 
-.jumbotron button {
+nav button {
+  padding-inline: 1rem;
+  padding-block: 0.3rem;
+
+  color: black;
+  font-weight: 400;
+}
+
+.jumbotron button,
+.meeting button {
   margin-inline: 0.3rem;
+  font-size: 1.2rem;
 }
 
 .light-b {
@@ -222,5 +229,10 @@ button {
 
 .dark-b {
   background-color: rgb(39, 39, 39);
+  color: white;
+}
+
+.lightblue-b {
+  background-color: #8ea1e1;
   color: white;
 }
