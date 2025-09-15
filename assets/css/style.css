@@ -139,16 +139,15 @@ section {
 .invite_only .w-70 {
   background-image: url(../img/item1.svg);
   background-size: contain;
-  min-height: 34rem;
+  min-height: 10rem;
   background-position: top left;
-  aspect-ratio: 6/5;
   background-repeat: no-repeat;
 }
 
 .channel .w-70 {
   background-image: url(../img/item2.svg);
   background-size: contain;
-  min-height: 34rem;
+  min-height: 20rem;
   background-position: top right;
   background-repeat: no-repeat;
 }
@@ -156,7 +155,7 @@ section {
 .fandom .w-70 {
   background-image: url(../img/item3.svg);
   background-size: contain;
-  min-height: 34rem;
+  min-height: 23rem;
   background-position: top left;
   background-repeat: no-repeat;
 }
