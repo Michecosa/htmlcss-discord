@@ -60,7 +60,8 @@ selettore > discendente diretto
 
 .container {
   width: 80%;
-  max-width: 1200px;
+  max-width: 80rem;
+  min-width: 50rem;
   margin: auto;
 }
 
@@ -99,6 +100,10 @@ header {
   width: 30%;
 }
 
+.w-100 {
+  width: 100%;
+}
+
 section {
   padding: 3rem 0;
 }
@@ -109,6 +114,31 @@ section {
 .invite_only .w-70 {
   background-image: url(../img/item1.svg);
   object-fit: cover;
+  background-position: left;
+  aspect-ratio: 6/4;
+  background-repeat: no-repeat;
+}
+
+.channel .w-70 {
+  background-image: url(../img/item2.svg);
+  object-fit: cover;
+  background-position: right;
+  aspect-ratio: 6/4;
+  background-repeat: no-repeat;
+}
+
+.fandom .w-70 {
+  background-image: url(../img/item3.svg);
+  object-fit: cover;
+  background-position: left;
+  aspect-ratio: 6/4;
+  background-repeat: no-repeat;
+}
+
+.meeting .w-100 {
+  background-image: url(../img/item4-big.svg);
+  object-fit: cover;
+  background-position: center;
   aspect-ratio: 6/4;
   background-repeat: no-repeat;
 }
