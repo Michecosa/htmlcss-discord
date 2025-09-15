@@ -37,8 +37,9 @@ selettore > discendente diretto
   }
 
   section {
-    height: 350px;
-    background-image: url(../img/wave.svg);
+    background-image: 
+      linear-gradient(rgba(255, 255, 255, 0.96)), 
+      url(../img/wave.svg);
     background-size:cover;
   }
 
