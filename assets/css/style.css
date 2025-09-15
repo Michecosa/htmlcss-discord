@@ -25,7 +25,8 @@ selettore > discendente diretto
   }
 
   .container-sm {
-    /*  */
+    display: flex;
+    flex-direction: column;
   }
 
   .jumbotron {
@@ -71,7 +72,6 @@ selettore > discendente diretto
   max-width: 60rem;
   min-width: 40rem;
 
-  height: 80%;
   margin: auto;
 }
 
@@ -92,6 +92,10 @@ nav .d-flex {
 
 .justify-content-between {
   justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
 }
 
 .list-unstyled {
