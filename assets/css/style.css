@@ -25,7 +25,7 @@ selettore > discendente diretto
   }
 
   .container-sm {
-    background-color: pink;
+    /*  */
   }
 
   .jumbotron {
@@ -170,4 +170,24 @@ section {
   background-position:top;
   background-repeat: no-repeat;
   aspect-ratio: 11/1;
+}
+
+
+/* Text */
+
+nav ul a {
+  color: white;
+}
+
+.jumbotron .container-sm {
+  color: white;
+}
+
+.jumbotron h1 {
+  font-size: 3rem;
+  margin-block: 2rem;
+}
+
+.jumbotron p {
+  font-size: 1.2rem;
 }
