@@ -315,8 +315,8 @@ nav button {
   align-items: flex-start;
 }
 
-.content > div:first-child {
-  width: 15rem;
+.first-class {
+  width: 25%;
 }
 
 .first-class > * {
@@ -354,4 +354,10 @@ nav button {
 
 .ending ul {
   list-style: none;
+}
+
+.sub-title {
+  color: #8ea1e1;
+  font-size: 2rem;
+  font-weight: 600;
 }
