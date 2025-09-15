@@ -34,6 +34,7 @@ selettore > discendente diretto
     background-position: center;
     aspect-ratio: 16/6;
 
+    display: flex;
     text-align: center;
   }
 
@@ -68,7 +69,9 @@ selettore > discendente diretto
 }
 
 .container-sm {
-  width: 65%;
+  width: 55%;
+  min-width: 40rem;
+  max-width: 60rem;
   margin: auto;
 }
 
