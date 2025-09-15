@@ -39,17 +39,15 @@ selettore > discendente diretto
   }
 
   section {
-    padding-top: 6rem;
-    padding-bottom: 10rem;
-    padding-block: 9rem;
+    padding-block: 10rem;
+  }
+
+  .invite_only {
+    padding-bottom: 14rem;
   }
 
   .fandom {
-    padding-top: 0;
-  }
-
-  .meeting {
-    margin-bottom: 0;
+    padding-bottom: 18rem;
   }
 
   footer {
@@ -71,7 +69,7 @@ selettore > discendente diretto
 }
 
 .container {
-  width: 60rem;
+  width: 65rem;
   margin: auto;
 }
 
@@ -199,6 +197,10 @@ nav ul a {
 .jumbotron h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.3rem;
 }
 
 .jumbotron p {
