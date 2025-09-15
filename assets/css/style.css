@@ -26,7 +26,6 @@ selettore > discendente diretto
 
   .container-sm {
     background-color: pink;
-    height: 100%;
   }
 
   .jumbotron {
@@ -81,6 +80,7 @@ selettore > discendente diretto
 
 .d-flex {
   display: flex;
+  gap: 3rem;
 }
 
 .justify-content-between {
