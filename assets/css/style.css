@@ -259,8 +259,7 @@ nav button {
 /* Background */
 
 .invite_only {
-  background-image: 
-    linear-gradient(rgb(255 255 255 / 0.95)), 
+  background-image: linear-gradient(rgb(255 255 255 / 0.95)),
     url(../img/wave.svg);
   background-repeat: repeat-x;
   background-size: 100% auto;
@@ -272,13 +271,21 @@ nav button {
 }
 
 .fandom {
-  background-image: 
-    linear-gradient(rgb(255 255 255 / 0.95)), 
-    url(../img/wave.svg);
+  background-image: linear-gradient(rgb(255 255 255 / 0.95)),
+  url(../img/wave.svg);
   background-repeat: repeat-x;
   background-size: 100% auto;
   background-position: bottom;
 }
+
+.middle-wave {
+  height: 5.2rem;
+  background-image: linear-gradient(rgb(255 255 255 / 0.95)),
+  url(../img/wave.svg);
+  background-size: 100% auto;
+
+}
+
 
 .meeting {
   background-color: #f2f2f2;
