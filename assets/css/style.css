@@ -282,26 +282,6 @@ nav button {
 
 /* Background */
 
-.invite_only {
-  background-image: linear-gradient(rgb(255 255 255 / 0.95)),
-    url(../img/wave.svg);
-  background-repeat: repeat-x;
-  background-size: 100% auto;
-  background-position: bottom;
-}
-
-.channel {
-  background-color: #f2f2f2;
-}
-
-.fandom {
-  background-image: linear-gradient(rgb(255 255 255 / 0.95)),
-    url(../img/wave.svg);
-  background-repeat: repeat-x;
-  background-size: 100% auto;
-  background-position: bottom;
-}
-
 .middle-wave {
   height: 8rem;
   background-image: linear-gradient(rgb(255 255 255 / 0.95)),
@@ -311,7 +291,16 @@ nav button {
   background-position: top;
 }
 
-.meeting {
+.middle-wave-a {
+  height: 8rem;
+  background-image: linear-gradient(rgb(255 255 255 / 0.95)),
+    url(../img/wave.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top;
+}
+
+.meeting, .channel {
   background-color: #f2f2f2;
 }
 
