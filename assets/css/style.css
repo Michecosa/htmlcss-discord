@@ -38,7 +38,8 @@ selettore > discendente diretto
 
   section {
     height: 350px;
-    background-color: purple;
+    background-image: url(../img/wave.svg);
+    background-size:cover;
   }
 
   footer {
