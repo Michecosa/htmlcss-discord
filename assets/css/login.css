@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: Outfit;
 }
 
 html, body {
@@ -37,6 +39,7 @@ html, body {
 
 .login-card > * {
   text-align: center;
+  padding: 2rem;
 }
 
 .w-70 {
