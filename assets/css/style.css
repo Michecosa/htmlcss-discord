@@ -12,11 +12,11 @@ selettore > discendente diretto
 
 .debug {
   * {
-    border: 1px dashed;
+    border: 0;
   }
 
   header {
-    background-color: green;
+    background-color: #005ce3;
   }
 
   .container {
