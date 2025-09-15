@@ -270,3 +270,16 @@ nav button {
 .channel {
   background-color: #f2f2f2;
 }
+
+.fandom {
+  background-image: 
+    linear-gradient(rgb(255 255 255 / 0.95)), 
+    url(../img/wave.svg);
+  background-repeat: repeat-x;
+  background-size: 100% auto;
+  background-position: bottom;
+}
+
+.meeting {
+  background-color: #f2f2f2;
+}
