@@ -91,3 +91,22 @@ span {
   color: #8ea1e1;
   font-weight: 600;
 }
+
+
+/* login-signing */
+
+.login-signin {
+  text-align: left;
+}
+
+.login-signin .login-btn {
+  width: 100%;
+
+  border: 0;
+  border-radius: 0.8rem;
+  background-color: #8ea1e1;
+  padding-block: 1rem;
+
+  color: white;
+  font-size: 1.4rem;
+}
