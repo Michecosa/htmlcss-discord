@@ -19,6 +19,7 @@ html, body {
 
 .d-flex {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .center {
@@ -29,13 +30,9 @@ html, body {
 /* Login card */
 
 .login-card {
-  height: 40%;
-  min-height: 25rem;
-  
-  width: 30%;
-  min-width: 45rem;
-  
-  background-color: white;
+  aspect-ratio: 19/10;
+
+  background-color: rgb(241, 241, 241);
   border-radius: 1rem;
 }
 
@@ -52,11 +49,25 @@ html, body {
   width:40%;
 }
 
-.w-40 img {
-  width: 70%;
 
-  padding: 1rem;
+
+/* w-40 & w-60 elements */
+
+.w-40 img {
+  width: 90%;
+  
+  padding: 0.5rem;
   border-radius: 1rem;
+  
+  background-color: white;
+}
+
+.w-40 h2 {
+  margin-block: 1.5rem;
+}
+
+.w-40 p {
+  margin-bottom: 0.5rem;
 }
 
 /* Form */
@@ -76,7 +87,7 @@ form input {
   border-radius: 0.5rem;
 }
 
-form span {
+span {
   color: #8ea1e1;
   font-weight: 600;
 }
