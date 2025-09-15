@@ -301,9 +301,13 @@ nav button {
 
 
 .ending {
-  padding-block: 2rem;
+  padding-block: 1rem;
   background-color: #23272a;
   color: white;
+}
+
+.ending .container {
+  padding-top: 2rem;
 }
 
 .ending > div {
