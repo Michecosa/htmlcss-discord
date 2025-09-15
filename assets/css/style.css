@@ -60,8 +60,8 @@ selettore > discendente diretto
 }
 
 .container {
-  width: 60%;
-  max-width: 70rem;
+  width: 70%;
+  max-width: 90rem;
 
   margin: auto;
 }
@@ -149,10 +149,21 @@ section {
   height: 1rem;
 }
 
+.h2-stars img {
+  width: 100%;
+  max-width: 30rem;
+  height: auto;
+}
+
 /* Text */
 
 nav ul a {
   color: white;
+}
+
+nav {
+  font-size: 1.3rem;
+  font-weight: 400;
 }
 
 .jumbotron .container-sm {
@@ -161,16 +172,16 @@ nav ul a {
 
 .jumbotron h1 {
   font-size: 3rem;
-  margin-bottom: 1rem;
 }
 
 p {
   font-size: 1.3rem;
+  margin: 2rem auto;
 }
 
 .jumbotron p {
-  font-size: 1.2rem;
-  margin-block: 1rem;
+  font-size: 1.6rem;
+  margin-block: 2rem;
 }
 
 section h2 {
@@ -180,8 +191,8 @@ section h2 {
 
 .meeting h2,
 .meeting p {
-  width: 50rem;
-  margin: 1rem auto;
+  width: 80%;
+  margin: 2rem auto;
 }
 
 .meeting h3 {
@@ -285,9 +296,6 @@ nav button {
 }
 
 .ending > div {
-  width: 65rem;
-  margin: 0 auto;
-  
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
