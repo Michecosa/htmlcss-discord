@@ -331,3 +331,8 @@ nav button {
 .ending li {
   margin-block:0.5rem;
 }
+
+.ending button {
+  padding-block:1rem;
+  padding-inline: 1.2rem;
+}
