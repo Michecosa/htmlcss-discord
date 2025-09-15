@@ -179,6 +179,10 @@ section {
   background-repeat: no-repeat;
 }
 
+.meeting button img {
+  height: 1rem;
+}
+
 /* Text */
 
 nav ul a {
