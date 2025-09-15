@@ -86,7 +86,9 @@ selettore > discendente diretto
 .d-flex {
   display: flex;
   gap: 3rem;
+}
 
+nav .d-flex {
   align-items: center;
 }
 
