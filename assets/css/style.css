@@ -39,15 +39,11 @@ selettore > discendente diretto
   }
 
   section {
-    padding-block: 4rem;
+    padding-block: 8rem;
   }
 
-  .invite_only {
-    padding-bottom: 14rem;
-  }
-
-  .fandom {
-    padding-bottom: 18rem;
+  .channel, .meeting {
+    padding-top: 4rem;
   }
 }
 
