@@ -11,7 +11,7 @@ html, body {
 }
 
 .login-background {
-  background-image: url(../img/jumbo.png);
+  background-image: url(../img/background.jpg);
   height: 100%;
   background-size: cover;
   background-position: center;
@@ -31,6 +31,7 @@ html, body {
 
 .login-card {
   aspect-ratio: 19/8;
+  max-width: 80rem;
 
   background-color: rgb(241, 241, 241);
   border-radius: 1rem;
