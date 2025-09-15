@@ -223,6 +223,21 @@ section h2 {
   font-size: 1.5rem;
 }
 
+.ending ul {
+  list-style: none;
+}
+
+.sub-title {
+  color: #8ea1e1;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.ending .category {
+  color: #8ea1e1;
+  font-weight: 600;
+}
+
 /* Buttons */
 
 button {
@@ -311,7 +326,7 @@ nav button {
 }
 
 .ending > div {
-  width: 70rem;
+  width: 65rem;
   margin: 0 auto;
   
   display: flex;
@@ -327,14 +342,6 @@ nav button {
   margin-block: 1.2rem;
 }
 
-.content > div:not(.first-class) li {
-  margin-block: 0.4rem;
-}
-
-.content > div:not(.first-class) span {
-  font-weight: bold;
-}
-
 .ending .socials {
   display: flex;
   gap: 0.5rem;
@@ -348,7 +355,7 @@ nav button {
 }
 
 .ending .end-page {
-  border-top: 1px solid rgba(118, 127, 193, 0.189); 
+  border-top: 2px solid rgba(118, 127, 193, 0.189); 
   margin-top: 2rem;
   padding-block: 1rem;
   
@@ -356,17 +363,6 @@ nav button {
   align-items: center;
 }
 
-.ending ul {
-  list-style: none;
-}
-
-.sub-title {
-  color: #8ea1e1;
-  font-size: 2rem;
-  font-weight: 600;
-}
-
-.ending .category {
-  color: #8ea1e1;
-  font-weight: 600;
+.ending li {
+  margin-block:0.5rem;
 }
