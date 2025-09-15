@@ -49,11 +49,6 @@ selettore > discendente diretto
   .fandom {
     padding-bottom: 18rem;
   }
-
-  footer {
-    background-color: rgb(77, 73, 80);
-    height: 500px;
-  }
 }
 
 /* .degug header {} */
@@ -295,4 +290,59 @@ nav button {
 
 .meeting {
   background-color: #f2f2f2;
+}
+
+
+/* Footer */
+
+
+.ending {
+  padding-block: 2rem;
+  background-color: #23272a;
+}
+
+.ending > div {
+  width: 70rem;
+  margin: 0 auto;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.content > div:first-child {
+  width: 15rem;
+}
+
+.first-class > * {
+  margin-block: 1.2rem;
+}
+
+.content > div:not(.first-class) li {
+  margin-block: 0.4rem;
+}
+
+.content > div:not(.first-class) span {
+  font-weight: bold;
+}
+
+.ending .socials {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.socials img {
+  width: 1.5rem;
+  height: 1.5rem;
+  object-fit: cover;
+  margin-inline: 0.3rem;
+}
+
+.ending .end-page {
+  border-top: 1px solid; 
+  margin-top: 2rem;
+  padding-block: 0.5rem;
+  
+  display: flex;
+  align-items: center;
 }
