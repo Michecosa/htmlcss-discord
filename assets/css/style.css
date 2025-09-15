@@ -56,6 +56,7 @@ selettore > discendente diretto
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Outfit;
 }
 
 .container {
@@ -68,6 +69,10 @@ selettore > discendente diretto
 .container-sm {
   width: 65%;
   margin: auto;
+}
+
+.meeting {
+  text-align: center;
 }
 
 /* Utilities */
@@ -139,6 +144,6 @@ section {
   background-image: url(../img/item4-big.svg);
   object-fit: cover;
   background-position: center;
-  aspect-ratio: 6/4;
+  aspect-ratio: 16/7;
   background-repeat: no-repeat;
 }
