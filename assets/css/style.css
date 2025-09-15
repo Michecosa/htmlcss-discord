@@ -72,6 +72,8 @@ selettore > discendente diretto
   width: 55%;
   min-width: 40rem;
   max-width: 60rem;
+
+  height: 80%;
   margin: auto;
 }
 
@@ -92,6 +94,10 @@ selettore > discendente diretto
 
 .list-unstyled {
   list-style: none;
+}
+
+nav a {
+  text-decoration: none;
 }
 
 /* Header */
@@ -120,6 +126,8 @@ section {
 
 
 /* Images */
+
+.logo {}
 
 .invite_only .w-70 {
   background-image: url(../img/item1.svg);
