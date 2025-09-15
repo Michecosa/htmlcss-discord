@@ -16,7 +16,7 @@ selettore > discendente diretto
   }
 
   header {
-    background-color: #005ce3;
+    background-color: #0060e5;
   }
 
   .container {
@@ -87,6 +87,10 @@ selettore > discendente diretto
 nav .d-flex {
   align-items: center;
   flex-wrap: wrap;
+}
+
+nav button {
+  align-self: center;
 }
 
 .justify-content-between {
