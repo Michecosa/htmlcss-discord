@@ -39,7 +39,7 @@ selettore > discendente diretto
   }
 
   section {
-    margin-block:4rem;
+    margin-block: 4rem;
   }
 
   footer {
@@ -70,6 +70,11 @@ selettore > discendente diretto
   max-width: 60rem;
   min-width: 40rem;
 
+  margin: auto;
+}
+
+.meeting .container {
+  width: 60rem;
   margin: auto;
 }
 
@@ -129,12 +134,12 @@ section {
   padding: 3rem 0;
 }
 
-
 /* Images */
 
 .invite_only .w-70 {
   background-image: url(../img/item1.svg);
-  object-fit: cover;
+  background-size: contain;
+  min-height: 34rem;
   background-position: top left;
   aspect-ratio: 6/5;
   background-repeat: no-repeat;
@@ -142,36 +147,35 @@ section {
 
 .channel .w-70 {
   background-image: url(../img/item2.svg);
-  object-fit: cover;
+  background-size: contain;
+  min-height: 34rem;
   background-position: top right;
-  aspect-ratio: 6/5;
   background-repeat: no-repeat;
 }
 
 .fandom .w-70 {
   background-image: url(../img/item3.svg);
-  object-fit: cover;
+  background-size: contain;
+  min-height: 34rem;
   background-position: top left;
-  aspect-ratio: 6/5;
   background-repeat: no-repeat;
 }
 
 .meeting .w-100 {
   background-image: url(../img/item4-big.svg);
-  object-fit: cover;
+  background-size: contain;
+  min-height: 34rem;
   background-position: top;
-  aspect-ratio: 16/8;
   background-repeat: no-repeat;
 }
 
 .h2-stars {
   background-image: url(../img/stars.svg);
-  object-fit: cover;
+  background-size: contain;
+  min-height: 3rem;
   background-position: top;
   background-repeat: no-repeat;
-  aspect-ratio: 11/1;
 }
-
 
 /* Text */
 
@@ -190,7 +194,7 @@ nav ul a {
 
 .jumbotron p {
   font-size: 1.2rem;
-  margin-block: 1rem;;
+  margin-block: 1rem;
 }
 
 section h2 {
@@ -198,6 +202,15 @@ section h2 {
   margin-bottom: 1.5rem;
 }
 
+.meeting h2,
+.meeting p {
+  width: 50rem;
+  margin: 1rem auto;
+}
+
+.meeting h3 {
+  margin-bottom:2rem;
+}
 
 /* Buttons */
 
