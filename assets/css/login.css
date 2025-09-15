@@ -92,6 +92,10 @@ form input {
   transition: border 0.4s ease, box-shadow 0.4s ease;
 }
 
+form input[type="password"] {
+  margin-bottom: 0;
+}
+
 form input:focus {
   border: 2px solid #8ea1e1;
   outline: none;
