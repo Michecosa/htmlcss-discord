@@ -60,7 +60,8 @@ selettore > discendente diretto
 }
 
 .container {
-  width: 60rem;
+  width: 60%;
+  min-width: 60rem;
   margin: auto;
 }
 
@@ -135,44 +136,18 @@ section {
 
 /* Images */
 
-.invite_only .w-70 {
-  background-image: url(../img/item1.svg);
-  background-size: contain;
-  min-height: 10rem;
-  background-position: top left;
-  background-repeat: no-repeat;
+.w-70 img{
+  width: 100%;
+  height: auto;
 }
 
-.channel .w-70 {
-  background-image: url(../img/item2.svg);
-  background-size: contain;
-  min-height: 20rem;
-  background-position: top right;
-  background-repeat: no-repeat;
+.w-100 {
+  width: 100%;
+  height: auto;
 }
 
-.fandom .w-70 {
-  background-image: url(../img/item3.svg);
-  background-size: contain;
-  min-height: 23rem;
-  background-position: top left;
-  background-repeat: no-repeat;
-}
-
-.meeting .w-100 {
-  background-image: url(../img/item4-big.svg);
-  background-size: contain;
-  min-height: 34rem;
-  background-position: top;
-  background-repeat: no-repeat;
-}
-
-.h2-stars {
-  background-image: url(../img/stars.svg);
-  background-size: contain;
-  min-height: 3rem;
-  background-position: top;
-  background-repeat: no-repeat;
+.w-30 > * {
+  width: 100%;
 }
 
 .meeting button img {
@@ -288,7 +263,7 @@ nav button {
 }
 
 .middle-wave-a {
-  min-height: 8rem;
+  height: 10rem;
   background-image: linear-gradient(rgb(255 255 255 / 0.95)),
     url(../img/wave.svg);
   background-repeat: no-repeat;
