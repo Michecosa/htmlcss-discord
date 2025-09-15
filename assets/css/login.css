@@ -30,10 +30,11 @@ html, body {
 /* Login card */
 
 .login-card {
-  aspect-ratio: 19/10;
+  aspect-ratio: 19/8;
 
   background-color: rgb(241, 241, 241);
   border-radius: 1rem;
+  padding: 2rem 1.5rem;
 
   font-size: 1.2rem;
 }
@@ -56,7 +57,7 @@ html, body {
 /* w-40 & w-60 elements */
 
 .w-40 img {
-  width: 90%;
+  width: 70%;
   
   padding: 0.5rem;
   border-radius: 1rem;
