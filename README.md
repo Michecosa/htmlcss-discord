@@ -1,4 +1,4 @@
-# Discord Structure Clone
+# Discord Structure Clone +Login
 
 A responsive static web project replicating the layout and style of the official Discord landing page.  
 The project is built using **HTML5** and **CSS3** with a focus on semantic structure, advanced CSS selectors, and responsive design patterns.
