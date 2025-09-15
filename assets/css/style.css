@@ -44,6 +44,10 @@ selettore > discendente diretto
     padding-block: 9rem;
   }
 
+  .fandom {
+    padding-top: 0;
+  }
+
   .meeting {
     margin-bottom: 0;
   }
@@ -272,7 +276,7 @@ nav button {
 
 .fandom {
   background-image: linear-gradient(rgb(255 255 255 / 0.95)),
-  url(../img/wave.svg);
+    url(../img/wave.svg);
   background-repeat: repeat-x;
   background-size: 100% auto;
   background-position: bottom;
@@ -280,7 +284,8 @@ nav button {
 
 .middle-wave {
   height: 8rem;
-  background-image: linear-gradient(rgb(255 255 255 / 0.95)), url(../img/wave2.svg);
+  background-image: linear-gradient(rgb(255 255 255 / 0.95)),
+    url(../img/wave2.svg);
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: top;
