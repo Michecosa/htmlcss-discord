@@ -15,8 +15,11 @@ html, body {
   background-position: center;
 }
 
-.center {
+.d-flex {
   display: flex;
+}
+
+.center {
   justify-content: center;
   align-items: center;
 }
@@ -27,7 +30,19 @@ html, body {
   
   width: 30%;
   min-width: 45rem;
-
+  
   background-color: white;
   border-radius: 1rem;
+}
+
+.login-card > * {
+  text-align: center;
+}
+
+.w-70 {
+  width:70%;
+}
+
+.w-30 {
+  width:30%;
 }
