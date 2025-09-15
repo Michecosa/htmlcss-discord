@@ -247,6 +247,10 @@ button {
   font-weight: 400;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 nav button {
   padding-inline: 1rem;
   padding-block: 0.3rem;
