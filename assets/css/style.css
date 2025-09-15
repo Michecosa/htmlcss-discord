@@ -86,6 +86,8 @@ selettore > discendente diretto
 .d-flex {
   display: flex;
   gap: 3rem;
+
+  align-items: center;
 }
 
 .justify-content-between {
@@ -126,8 +128,6 @@ section {
 
 
 /* Images */
-
-.logo {}
 
 .invite_only .w-70 {
   background-image: url(../img/item1.svg);
