@@ -61,6 +61,8 @@ selettore > discendente diretto
 
 .container {
   width: 60%;
+  max-width: 70rem;
+
   margin: auto;
 }
 
@@ -68,11 +70,6 @@ selettore > discendente diretto
   width: 55%;
   max-width: 60rem;
 
-  margin: auto;
-}
-
-.meeting .container {
-  width: 60rem;
   margin: auto;
 }
 
@@ -139,7 +136,7 @@ section {
   height: auto;
 }
 
-.w-100 {
+.w-100 img {
   width: 100%;
   height: auto;
 }
